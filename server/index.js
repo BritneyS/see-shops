@@ -13,11 +13,14 @@ app.get("/shops", async (req, res, next) => {
   try {
     const limit = req.query.limit
     const offset = req.query.offset
-    const data = await fetchAllShops(limit, offset)
-    const shops = data.results.map(shop => ({
+    const shopData = await fetchAllShops(limit, offset)
+    const shops = shopData.map(shop => ({
       shop_id: shop.shop_id,
       shop_name: shop.shop_name,
-      user_id: shop.user_id
+      user_id: shop.user_id,
+      is_vacation: shop.is_vacation,
+      avatar_src: shop.avatar_src,
+      shop_url: shop.url
     }))
     res.status(200).json(shops)
   } catch(err) {

@@ -4,7 +4,7 @@
   "description": "An app that retrieves Etsy shop info, using the Etsy public API 🧵",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js",
+    "start": "node server/index.js",
     "build": "cd client && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

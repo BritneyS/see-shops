@@ -1,7 +1,11 @@
 # see-shops
 An app that retrieves Etsy shop info, using the Etsy public API 🧵
 
+
 This app displays info for the 5 most recently created Etsy shops and links to them. The backend was written using Node, and the frontend was written in React with the Bulma css library.
+
+## 👾 Current Epic Branch (where you'll find the latest code):
+[epic/full-stack-app](https://github.com/BritneyS/see-shops/tree/epic/full-stack-app)
 
 ## Getting Started (locally) 🚀
 
@@ -16,3 +20,5 @@ Then:
 
 ## Screenshot of current functionality 📸
 ![May-02-2021 19-27-17](https://user-images.githubusercontent.com/8409475/116831332-89bb9b00-ab7c-11eb-979b-48d1d9b4a03d.gif)
+
+
